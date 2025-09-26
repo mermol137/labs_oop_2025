@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.14)
+project(MyProject)
+
+# Настройка C++ стандарта - используем C++17 для совместимости
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Включение CTest
+include(CTest)
+
+# Директории с заголовочными файлами
+include_directories(include)
+
+# Основной проект
+add_executable(MyProject 
+    src/main.cpp 
+    src/func.cpp
+)
+
+# Поиск системного GoogleTest
+find_package(GTest REQUIRED)
+
+# Явно включаем тестирование
+enable_testing()
+
+# Тестовый исполняемый файл
+add_executable(MyProject_tests 
+    tests/test_func.cpp 
+    src/func.cpp
+)
+
+target_include_directories(MyProject_tests PRIVATE include)
+target_link_libraries(MyProject_tests GTest::gtest_main)
+
+# Регистрируем тесты
+add_test(NAME MyProject_UnitTests COMMAND MyProject_tests)
+
+# Альтернативный способ для GoogleTest
+include(GoogleTest)
+gtest_discover_tests(MyProject_tests)

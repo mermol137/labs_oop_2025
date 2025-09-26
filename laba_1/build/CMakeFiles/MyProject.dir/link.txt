@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/MyProject.dir/src/main.cpp.o CMakeFiles/MyProject.dir/src/func.cpp.o -o MyProject

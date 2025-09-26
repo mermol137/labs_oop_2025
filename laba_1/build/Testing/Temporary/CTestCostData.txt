@@ -1,0 +1,8 @@
+FuncTest.ReturnsExpectedString 3 0.00425355
+FuncTest.EmptyString 3 0.00276376
+FuncTest.NoDigits 3 0.00261463
+FuncTest.DigitsWithSpaces 3 0.00254173
+FuncTest.ConsecutiveDigits 3 0.00222146
+FuncTest.DigitsOnly 3 0.00212171
+MyProject_UnitTests 3 0.00211533
+---

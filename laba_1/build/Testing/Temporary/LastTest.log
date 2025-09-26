@@ -1,0 +1,201 @@
+Start testing: Sep 26 21:58 +06
+----------------------------------------------------------
+1/7 Testing: FuncTest.ReturnsExpectedString
+1/7 Test: FuncTest.ReturnsExpectedString
+Command: "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests" "--gtest_filter=FuncTest.ReturnsExpectedString" "--gtest_also_run_disabled_tests"
+Directory: /Users/zena/Desktop/labs_oop/laba_1/build
+"FuncTest.ReturnsExpectedString" start time: Sep 26 21:58 +06
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4990-9ldiyw/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FuncTest.ReturnsExpectedString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FuncTest
+[ RUN      ] FuncTest.ReturnsExpectedString
+[       OK ] FuncTest.ReturnsExpectedString (0 ms)
+[----------] 1 test from FuncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FuncTest.ReturnsExpectedString" end time: Sep 26 21:58 +06
+"FuncTest.ReturnsExpectedString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: FuncTest.EmptyString
+2/7 Test: FuncTest.EmptyString
+Command: "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests" "--gtest_filter=FuncTest.EmptyString" "--gtest_also_run_disabled_tests"
+Directory: /Users/zena/Desktop/labs_oop/laba_1/build
+"FuncTest.EmptyString" start time: Sep 26 21:58 +06
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4990-9ldiyw/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FuncTest.EmptyString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FuncTest
+[ RUN      ] FuncTest.EmptyString
+[       OK ] FuncTest.EmptyString (0 ms)
+[----------] 1 test from FuncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FuncTest.EmptyString" end time: Sep 26 21:58 +06
+"FuncTest.EmptyString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: FuncTest.NoDigits
+3/7 Test: FuncTest.NoDigits
+Command: "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests" "--gtest_filter=FuncTest.NoDigits" "--gtest_also_run_disabled_tests"
+Directory: /Users/zena/Desktop/labs_oop/laba_1/build
+"FuncTest.NoDigits" start time: Sep 26 21:58 +06
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4990-9ldiyw/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FuncTest.NoDigits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FuncTest
+[ RUN      ] FuncTest.NoDigits
+[       OK ] FuncTest.NoDigits (0 ms)
+[----------] 1 test from FuncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FuncTest.NoDigits" end time: Sep 26 21:58 +06
+"FuncTest.NoDigits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: FuncTest.DigitsWithSpaces
+4/7 Test: FuncTest.DigitsWithSpaces
+Command: "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests" "--gtest_filter=FuncTest.DigitsWithSpaces" "--gtest_also_run_disabled_tests"
+Directory: /Users/zena/Desktop/labs_oop/laba_1/build
+"FuncTest.DigitsWithSpaces" start time: Sep 26 21:58 +06
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4990-9ldiyw/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FuncTest.DigitsWithSpaces
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FuncTest
+[ RUN      ] FuncTest.DigitsWithSpaces
+[       OK ] FuncTest.DigitsWithSpaces (0 ms)
+[----------] 1 test from FuncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FuncTest.DigitsWithSpaces" end time: Sep 26 21:58 +06
+"FuncTest.DigitsWithSpaces" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: FuncTest.ConsecutiveDigits
+5/7 Test: FuncTest.ConsecutiveDigits
+Command: "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests" "--gtest_filter=FuncTest.ConsecutiveDigits" "--gtest_also_run_disabled_tests"
+Directory: /Users/zena/Desktop/labs_oop/laba_1/build
+"FuncTest.ConsecutiveDigits" start time: Sep 26 21:58 +06
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4990-9ldiyw/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FuncTest.ConsecutiveDigits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FuncTest
+[ RUN      ] FuncTest.ConsecutiveDigits
+[       OK ] FuncTest.ConsecutiveDigits (0 ms)
+[----------] 1 test from FuncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FuncTest.ConsecutiveDigits" end time: Sep 26 21:58 +06
+"FuncTest.ConsecutiveDigits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: FuncTest.DigitsOnly
+6/7 Test: FuncTest.DigitsOnly
+Command: "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests" "--gtest_filter=FuncTest.DigitsOnly" "--gtest_also_run_disabled_tests"
+Directory: /Users/zena/Desktop/labs_oop/laba_1/build
+"FuncTest.DigitsOnly" start time: Sep 26 21:58 +06
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4990-9ldiyw/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = FuncTest.DigitsOnly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FuncTest
+[ RUN      ] FuncTest.DigitsOnly
+[       OK ] FuncTest.DigitsOnly (0 ms)
+[----------] 1 test from FuncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"FuncTest.DigitsOnly" end time: Sep 26 21:58 +06
+"FuncTest.DigitsOnly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: MyProject_UnitTests
+7/7 Test: MyProject_UnitTests
+Command: "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests"
+Directory: /Users/zena/Desktop/labs_oop/laba_1/build
+"MyProject_UnitTests" start time: Sep 26 21:58 +06
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4990-9ldiyw/googletest-1.17.0/googletest/src/gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from FuncTest
+[ RUN      ] FuncTest.ReturnsExpectedString
+[       OK ] FuncTest.ReturnsExpectedString (0 ms)
+[ RUN      ] FuncTest.EmptyString
+[       OK ] FuncTest.EmptyString (0 ms)
+[ RUN      ] FuncTest.NoDigits
+[       OK ] FuncTest.NoDigits (0 ms)
+[ RUN      ] FuncTest.DigitsWithSpaces
+[       OK ] FuncTest.DigitsWithSpaces (0 ms)
+[ RUN      ] FuncTest.ConsecutiveDigits
+[       OK ] FuncTest.ConsecutiveDigits (0 ms)
+[ RUN      ] FuncTest.DigitsOnly
+[       OK ] FuncTest.DigitsOnly (0 ms)
+[----------] 6 tests from FuncTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyProject_UnitTests" end time: Sep 26 21:58 +06
+"MyProject_UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 26 21:58 +06

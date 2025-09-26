@@ -1,0 +1,5 @@
+if(EXISTS "/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests[1]_tests.cmake")
+  include("/Users/zena/Desktop/labs_oop/laba_1/build/MyProject_tests[1]_tests.cmake")
+else()
+  add_test(MyProject_tests_NOT_BUILT MyProject_tests_NOT_BUILT)
+endif()
